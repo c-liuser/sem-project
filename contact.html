@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cole Liu | Home</title>
+    <title>Cole Liu | Contact</title>
     <meta
       name="description"
-      content="Personal portfolio home for projects, hobbies, and contact information."
+      content="Contact page for collaboration, internship opportunities, and technical discussions."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -94,11 +94,10 @@
     </div>
     <header class="site-header">
       <div class="container">
-        <p class="site-kicker">Cole Liu / Portfolio</p>
-        <h1 class="title">Technical builder with a creative edge.</h1>
+        <p class="site-kicker">Cole Liu / Contact</p>
+        <h1 class="title">Let’s build something meaningful.</h1>
         <p class="lead">
-          I am a dual-major ASU student focused on software systems, quantitative thinking, and
-          product-level execution. This site highlights my current work, interests, and ways to connect.
+          Open to internships, technical collaboration, and interesting project conversations.
         </p>
       </div>
     </header>
@@ -108,58 +107,51 @@
         <h2>Explore</h2>
         <nav aria-label="Site sections">
           <ul class="chip-list">
-            <li><a class="chip-link active" href="./index.html" aria-current="page">Home</a></li>
+            <li><a class="chip-link" href="./index.html">Home</a></li>
             <li><a class="chip-link" href="./projects.html">Projects</a></li>
             <li><a class="chip-link" href="./hobbies.html">Hobbies</a></li>
-            <li><a class="chip-link" href="./contact.html">Contact</a></li>
+            <li><a class="chip-link active" href="./contact.html" aria-current="page">Contact</a></li>
           </ul>
         </nav>
       </section>
 
-      <section class="band hero-grid">
-        <article class="accent-panel">
-          <h2>What I Build</h2>
-          <p>
-            My focus is end-to-end product execution: from architecture and data flow to polished
-            interfaces and measurable outcomes.
-          </p>
-          <ul class="quick-stats">
-            <li>Quant + engineering perspective</li>
-            <li>Hands-on full-stack implementation</li>
-            <li>Strong interest in AI-assisted systems</li>
-          </ul>
-        </article>
-        <article class="accent-panel">
-          <h2>Current Direction</h2>
-          <p>
-            I am refining portfolio projects around real-time systems, applied AI, and practical
-            workflow automation for business operations.
-          </p>
-        </article>
+      <section class="band">
+        <h2>Get In Touch</h2>
+        <p>Use the form for opportunities, feedback, or collaboration requests.</p>
+        <form action="#">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your full name" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="name@example.com" required />
+
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic">
+            <option>Internship Opportunity</option>
+            <option>Project Collaboration</option>
+            <option>General Question</option>
+            <option>Other</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write your message here"></textarea>
+
+          <button class="uiverse-btn" type="submit">Send Message</button>
+        </form>
       </section>
 
       <section class="band">
-        <h2>Featured Paths</h2>
-        <div class="feature-grid">
-          <article class="feature-card">
-            <p class="feature-tag">Projects</p>
-            <h3>Engineering Portfolio</h3>
-            <p>Real repositories with architecture details, demo media, and impact summary.</p>
-            <p><a class="repo-link uiverse-btn" href="./projects.html">Open projects page</a></p>
-          </article>
-          <article class="feature-card">
-            <p class="feature-tag">Hobbies</p>
-            <h3>Creative Side</h3>
-            <p>Music practice, hardware builds, and car photography that balance technical work.</p>
-            <p><a class="repo-link uiverse-btn" href="./hobbies.html">Open hobbies page</a></p>
-          </article>
-          <article class="feature-card">
-            <p class="feature-tag">Contact</p>
-            <h3>Collaboration</h3>
-            <p>Reach out for internships, projects, or collaboration opportunities.</p>
-            <p><a class="repo-link uiverse-btn" href="./contact.html">Open contact page</a></p>
-          </article>
-        </div>
+        <h2>Direct Links</h2>
+        <p>
+          GitHub:
+          <a class="repo-link" href="https://github.com/c-liuser/sem-project" target="_blank" rel="noopener noreferrer"
+            >sem-project repository</a
+          >
+        </p>
+        <p>
+          Email:
+          <a class="repo-link" href="mailto:liu.cole@asu.edu">liu.cole@asu.edu</a>
+        </p>
       </section>
     </main>
 
