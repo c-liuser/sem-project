@@ -10,6 +10,7 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -117,13 +118,23 @@
       </section>
 
       <section class="band">
-        <h2>Project Cards</h2>
+        <h2>Project cards</h2>
         <p>
-          Including capstone work directly here gives one consolidated project story.
+          Each card pairs a visual with the stack and intent: hackathon tooling, capstone finance ops, and
+          audio ML research.
         </p>
         <div class="feature-grid">
           <article class="feature-card">
             <p class="feature-tag">Hackathon / Spatial IDE</p>
+            <img
+              class="card-thumb"
+              src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+              width="900"
+              height="563"
+              alt="Stock photo: laptop with programming code on screen, suggesting IDE and agent tooling work."
+              loading="lazy"
+              decoding="async"
+            />
             <h3>HackASU - GlassBox</h3>
             <p>
               A spatial IDE for coding agents that visualizes live telemetry, replay stories, and file-level
@@ -139,6 +150,15 @@
 
           <article class="feature-card">
             <p class="feature-tag">Capstone / AI + Finance Ops</p>
+            <img
+              class="card-thumb"
+              src="./src/Capstone.png"
+              width="900"
+              height="563"
+              alt="Screenshot or diagram from the ASU AI Enhanced Sales Commission capstone project."
+              loading="lazy"
+              decoding="async"
+            />
             <h3>ASU AI Enhanced Sales Commission</h3>
             <p>
               A capstone platform focused on commission workflow automation, anomaly detection support, and
@@ -154,6 +174,15 @@
 
           <article class="feature-card">
             <p class="feature-tag">Audio ML / Real-Time Systems</p>
+            <img
+              class="card-thumb"
+              src="./src/orato.png"
+              width="900"
+              height="563"
+              alt="Screenshot from the Orato real-time speaker diarization interface."
+              loading="lazy"
+              decoding="async"
+            />
             <h3>Orato</h3>
             <p>
               A real-time speaker diarization pipeline that combines VAD, Wav2Vec2 embeddings, online clustering,
@@ -222,15 +251,21 @@
       </section>
 
       <section class="band">
-        <h2>HackASU Demo Video</h2>
-        <p>Embedded Loom walkthrough of the HackASU project.</p>
-        <div class="loom-embed" aria-label="HackASU Loom demo video">
-          <iframe
-            src="https://www.loom.com/embed/d51e0363f63a4bb59a7a8f42276a7acc"
-            frameborder="0"
-            allowfullscreen
-            title="HackASU demo video"
-          ></iframe>
+        <h2>HackASU demo video</h2>
+        <p>
+          Walkthrough of GlassBox from HackASU: enhancing visibility in AI agent coding (local MP4
+          from <code>src/</code>).
+        </p>
+        <div class="site-video">
+          <video controls playsinline preload="metadata" title="Introducing GlassBox — HackASU demo">
+            <source
+              src="./src/Introducing%20Glassbox%20Enhancing%20Visibility%20in%20AI%20Agent%20Coding.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support embedded video. Open the file in
+            <code>src/</code>
+            to watch it.
+          </video>
         </div>
       </section>
     </main>

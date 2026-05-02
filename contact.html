@@ -10,6 +10,7 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -118,6 +119,15 @@
       <section class="band">
         <h2>Get In Touch</h2>
         <p>Use the form for opportunities, feedback, or collaboration requests.</p>
+        <img
+          class="card-thumb"
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&amp;fit=crop&amp;w=1000&amp;q=80"
+          width="1000"
+          height="667"
+          alt="Stock photo: colleagues collaborating over a laptop, suggesting project conversations."
+          loading="eager"
+          decoding="async"
+        />
         <form action="#">
           <label for="name">Name</label>
           <input id="name" name="name" type="text" placeholder="Your full name" required />
@@ -138,6 +148,33 @@
 
           <button class="uiverse-btn" type="submit">Send Message</button>
         </form>
+      </section>
+
+      <section class="band">
+        <h2>Résumé</h2>
+        <p>
+          Current résumé as a PDF (stored in <code>src/</code>). If the inline preview does not appear,
+          use the download button—some browsers block embedded PDFs depending on settings.
+        </p>
+        <p>
+          <a class="repo-link uiverse-btn" href="./src/Cole_Liu_resume%20%281%29.pdf" download
+            >Download résumé (PDF)</a
+          >
+        </p>
+        <div class="resume-shell">
+          <object
+            class="resume-pdf"
+            data="./src/Cole_Liu_resume%20%281%29.pdf"
+            type="application/pdf"
+            title="Cole Liu résumé PDF"
+          >
+            <p>
+              <a class="repo-link" href="./src/Cole_Liu_resume%20%281%29.pdf" download
+                >Download résumé (PDF)</a
+              >
+            </p>
+          </object>
+        </div>
       </section>
 
       <section class="band">
